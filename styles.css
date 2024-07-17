@@ -48,5 +48,26 @@
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 3fr 2fr;
     justify-content: center;
+    align-items: center;
 }
+
+.search, .user-greeting {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: start;
+    align-items: center;
+
+}
+.user-profile, .buttons {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center ;
+}
+
+.search-bar{
+    width: 40vw;
+    height: 1.5rem;
+}
+
+
 
